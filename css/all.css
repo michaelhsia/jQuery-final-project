@@ -381,6 +381,11 @@ table {
 
 .top a{
 	position: fixed;
+	border-radius: 50%;
 	right: 0;
 	bottom: 0;
+}
+
+.top a:hover{
+	background-color: orange;
 }
