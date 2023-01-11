@@ -155,14 +155,14 @@ table {
 }
 
 
-/* header wrap */
+/* swiper banner */
 
 .swiper{
 	position: relative;
 	height: 400px;
 }
 
-.header_wrap h2{
+.swiper h2{
 	width: 100%;
 	position: absolute;
 	font-size: 34px;
@@ -181,4 +181,66 @@ table {
 
 .swiper-pagination-bullet-active {
 	background-color: #00cb9b !important;
-  }
+}
+
+
+/* course details */
+
+.course_details{
+	display: flex;
+	justify-content: space-around;
+	color: #373737;
+	padding: 65px 0;
+}
+
+.course_details > li{
+	width: 300px;
+	box-shadow: 0px 2px 3px #dbdbdb;
+}
+
+.course_details li a{
+	display: block;
+	text-align: center;
+
+}
+
+.course_details >li h3{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.lb-container .lb-image{
+	width: 300px !important;
+	height: 300px !important;
+}
+
+.course_details .html img{
+	padding: 23px 89px 11px;
+}
+
+.course_details .rwd img{
+	padding: 40px 36px 45px;
+}
+
+.course_details .jquery img{
+	padding: 32px 92px 23px;
+}
+
+.course_details > li p{
+	font-size: 15px;
+	line-height: 1.3;
+	padding: 0 20px;
+	margin-bottom: 22px;
+}
+
+.course_details .jquery h4, .course_details .jquery ul{
+	font-size: 15px;
+	margin-left: 20px;
+	line-height: 1.2;
+}
+
+.course_details .jquery li:before{
+	/* display: inline block; */
+	content: ". ";
+	vertical-align: text-top;
+}
