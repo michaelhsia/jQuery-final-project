@@ -47,3 +47,107 @@ table {
 	border-spacing: 0;
 }
 
+*{
+	outline: 1px solid #000;
+}
+
+/* wrap */
+
+.wrap{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+
+/* socialbar */
+
+.socialbar{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: #f6f6f6;
+}
+
+.socialbar a{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.socialbar a:hover{
+	color: #00cb9b;
+}
+
+.socialbar a img{
+	margin-right: 3px;
+}
+
+.socialbar .fb{ 
+	color: #45609d;
+}
+
+.socialbar .twitter{
+	color: #00b0ff;
+}
+
+.socialbar .fb span{ 
+	border-right: 1px solid #cbcbcb;
+	padding-right: 7px;
+}
+
+
+/* header logo*/
+
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.header h1 a{
+	display: block;
+	width: 200px;
+	background: url(../images/logo.png) no-repeat;
+	padding: 20px 0;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+
+/* header menu */
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu > li{
+	position: relative;
+}
+
+.menu li{
+	width: 70px;
+	margin-right: 20px;
+}
+
+.menu li a{
+	display: block;
+	color: #00cb9b;
+	text-decoration: none;
+	text-align: center;
+	padding: 16px 0;
+	border-bottom: 3px solid transparent;
+}
+
+.menu li a:hover, .menu .dropdown.active{
+	border-bottom: 3px solid #00cb9b;
+}
+
+.menu ul{
+	display: none;
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+}
