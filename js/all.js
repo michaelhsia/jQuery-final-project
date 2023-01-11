@@ -1,9 +1,9 @@
 $(document).ready(function () {
     // Menu dropdown
-    $(".dropdown").click(function (e) { 
+    $('.dropdown').click(function (e) { 
         e.preventDefault();
-        $(".dropdown_open").slideToggle();
-        $(".dropdown").toggleClass("active");
+        $('.dropdown_open').slideToggle();
+        $('.dropdown').toggleClass('active');
     });
 
 
@@ -30,5 +30,12 @@ $(document).ready(function () {
         'resizeDuration': 200,
         'wrapAround': true,
         'showImageNumberLabel': false
+    });
+
+
+    // Back to top button
+    $('.top a').click(function (e) { 
+        e.preventDefault();
+        $('html,body').animate({scrollTop: 0}, 1000);
     });
 });

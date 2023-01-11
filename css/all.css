@@ -375,3 +375,12 @@ table {
 .footer .contact p a:hover{
 	color: orange;
 }
+
+
+/* back top top button */
+
+.top a{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
