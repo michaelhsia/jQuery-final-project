@@ -335,3 +335,43 @@ table {
 .right_form .submit_button:hover{
 	background-color: orange;
 }
+
+
+/* footer */
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 28px 20px;
+}
+
+.footer h2 a{
+	display: block;
+	width: 175px;
+	background: url(../images/footerLogo.png) no-repeat;
+	padding: 10px 0;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+
+}
+
+.footer .contact{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.footer .contact p{
+	line-height: 1.3;
+}
+
+.footer .contact p a{
+	color: #e95d8d;
+	text-decoration: none;
+}
+
+.footer .contact p a:hover{
+	color: orange;
+}
